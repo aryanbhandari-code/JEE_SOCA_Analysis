@@ -4,7 +4,7 @@ import pandas as pd
 from questions import get_questions
 from analysis import get_soca_analysis
 
-st.title("📊 JEE SOCA Analysis Tool - Powered by Free Gemini AI")
+st.title("📊 JEE SOCA Analysis Tool - Powered by Free Gemini AI - Created by Aryan")
 
 questions = get_questions()
 user_responses = {}
@@ -23,4 +23,4 @@ if st.button("🚀 Generate Analysis"):
         st.write(soca_report)
 
 st.markdown("---")
-st.write("🔹 Powered by Free Gemini AI | Developed for JEE Aspirants")
+st.write("🔹 Powered by Free Gemini AI | Developed for JEE Aspirants | Created by Aryan")
