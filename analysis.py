@@ -1,7 +1,6 @@
 # analysis.py
 import google.generativeai as genai
 
-# Configure Gemini API (Replace with your actual API Key)
 genai.configure(api_key="AIzaSyCQJ3ql8J6LHPbuFyluESWW23h5oat_X5c")
 
 def get_soca_analysis(user_responses):
